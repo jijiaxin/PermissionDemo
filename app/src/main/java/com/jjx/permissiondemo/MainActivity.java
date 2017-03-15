@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(context,"有权限",Toast.LENGTH_LONG).show();
                 Log.e("jijiaxin","有权限");
             }else if(checkResult == AppOpsManager.MODE_IGNORED){
-                // TODO: 只需要依此方法判断退出就可以了，这时是没有权限的。
+                // TODO: 只需要依此方法判断退出就可以了，这时是没有权限的,哈。
                 Toast.makeText(context,"被禁止了",Toast.LENGTH_LONG).show();
                 Log.e("jijiaxin","被禁止了");
             }else if(checkResult == AppOpsManager.MODE_ERRORED){
